@@ -1,0 +1,113 @@
+/* 
+BC4A3C - Persian Red
+A49E8D - Khaki 
+51231D - Caput Mortuum
+3C362A - Taupe
+*/
+body{
+    margin:0;
+}
+.hero{
+    background-image: url("images/great-falls.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+#paterson{
+    color: white;
+    background-color: #BC4A3C;
+    font-family: 'Rowdies';
+    border-radius: 5px;
+    padding: 4px 12px;
+}
+#tagline{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #51231D;
+    color: white;
+    border-radius: 5px;
+    padding: 6px 18px;
+
+
+}
+.main{
+    background: #A49E8D;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#2d281f;
+    
+}
+.main h2{
+    margin:0;
+    text-align: center;
+    font-family: Lato;
+    font-weight: 700;
+    padding: 40px 0 50px 0;
+}
+.todos{
+    display: flex;
+    /* flex-direction:column; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+.todo{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 0 60px;
+}
+.todo-img{
+    width: 128px;
+    height: 128px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: solid 4px #3C362A;
+}
+
+.todo-text{
+    width: 190px;
+    text-align: center;
+}
+
+.footer{
+    background: white;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card{
+    background: #F8B042;
+    border-radius: 30px;
+    width: 400px;
+    height: 300px;
+    border-bottom: solid 4px #51231D;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #51231D;
+}
+
+#avatar{
+    width: 180px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.right{
+    width: 180px;
+    text-align: center;
+}
